@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ap-footer svg {
+  display: inline;
+}
+
+.ap-suggestion-icon svg {
+  @apply inline-block;
+  @apply -mt-3;
+}
+
+.ap-input {
+  color: #2a2a2a;
+}
+
+.ap-suggestion {
+  color: #2a2a2a;
+}
